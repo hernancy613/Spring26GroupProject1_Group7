@@ -1,0 +1,23 @@
+my_summary_func <- function(data) {
+  
+  continuous_vars <- data[, c("Age",
+                              "AvgDrinksPerWeek",
+                              "WeeklyMinutesModerateExercise",
+                              "BMI",
+                              "QualityCare")]
+  
+  cat("----- Five-Number Summary -----\n")
+  print(summary(continuous_vars))
+  
+  cat("\n----- Means -----\n")
+  print(colMeans(continuous_vars))
+  
+  cat("\n----- Standard Deviations -----\n")
+  print(apply(continuous_vars, 2, sd))
+  
+  cat("\n----- Variances -----\n")
+  print(apply(continuous_vars, 2, var))
+}
+
+# Run the function
+my_summary_func(Group7Variables)
