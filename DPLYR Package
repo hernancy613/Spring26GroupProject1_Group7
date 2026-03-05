@@ -1,3 +1,5 @@
+###--B2.1--DPLYR Package--###
+
 library(dplyr)
 
 Group7Variables %>%
@@ -22,3 +24,10 @@ Group7Variables %>%
       .names = "{.col}_{.fn}"
     )
   )
+
+#A tibble 3x41 was created that contains 3 rows (smoking groups) with 41 columns: (1 group variable (SmokeStat), 5 continuous variables & 8 stats) 
+#The youngest person that is a current smoker: 19, while the oldest is a former smoker: 21
+#The max age is a person who never smoked: 100, while the lowest max age was for a current smoker: 87
+#The oldest group on average was former smokers, suggesting that quitting typically occurs later in life.
+#The group that never smoked had the more age variability with their SD=17
+#current and never smokers have similar mean ages. 
