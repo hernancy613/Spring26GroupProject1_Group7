@@ -1,3 +1,5 @@
+###B3 Write a single R function called "my_summary_func" to display the results of the stat summaries in B.1###
+
 my_summary_func <- function(data) {
   
   continuous_vars <- data[, c("Age",
