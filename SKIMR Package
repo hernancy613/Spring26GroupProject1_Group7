@@ -5,11 +5,9 @@ library(skimr)
 skim(Group7Variables[, c("Age",
                          "AvgDrinksPerWeek",
                          "WeeklyMinutesModerateExercise",
-                         "BMI",
-                         "QualityCare")])
+                         "BMI")])
 
 #The histogram of ages appears that there are more middle aged people in the data 
 #Most people drank 0-3 average drinks per week however heavy drinkers increased the average
 #Participants engaged in a median of 90 minutes of moderate exercise per week.
 #Participants had a mean BMI of 28.6 which would be slightly overweight; most of the participants had a higher BMI indicating they were overweight
-#Participants rated quality care relatively high with a mean of 2 indicating their care was very good 
