@@ -100,3 +100,4 @@ my_visual_func_II <- function(data, varname){
 }
 my_visual_func_II(Group7Variables, "Age")
 my_visual_func_II(Group7Variables, "BMI")
+#Updated by Bi Na
